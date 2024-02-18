@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Games">
+      <UniqueIdentifier>{18c19b26-d264-4d93-98ef-7def3b5e171c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back end Functions">
+      <UniqueIdentifier>{a885c499-3c81-4fdb-843e-735a59df2180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back end Functions\Hooks">
+      <UniqueIdentifier>{1b83fe9a-ee3d-4780-9d2f-ea409120896d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back end Functions\D3D_Test">
+      <UniqueIdentifier>{8446bd33-88fe-4986-b015-75ecc7526b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Snes Games">
+      <UniqueIdentifier>{07a8405c-2f69-49fb-95cf-4f0dc066e95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Games optimised">
+      <UniqueIdentifier>{2d76d9f8-1e08-4f6a-8552-e727a0d925f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Back end Functions\Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HudD3D.h">
+      <Filter>Back end Functions\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Back end Functions\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_z.h">
+      <Filter>Back end Functions\D3D_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="raider.h">
+      <Filter>Back end Functions\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="gtatest.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="night into dreams.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Alpha Pro.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="warhammer.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="MoH.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Quantum of Solace.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Killer Instinct.h">
+      <Filter>Header Files\Games\Snes Games</Filter>
+    </ClInclude>
+    <ClInclude Include="L4D.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallout NV tu5 updated.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallout 3.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Syndicate.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="the witcher.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="mgspw.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="gamebooter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInclude.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="backup.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticRoutine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="afro samurai.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien Coli.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alone in the Dark.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Bound.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="CoDClassic.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="CodMW.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="CoDMW3.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Codwaw.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy front.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="CodGhosts tu14.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="CodBlack OPs TU11.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="silent hill home.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Watch Dogs.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.h">
+      <Filter>Back end Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Back end Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>Back end Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Back end Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Set functions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolfenstein The New Order.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="0 day attack on earth.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="A Kingdom for keflings.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="A World of keflings.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Aces of the galaxy.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventure Time Explore the dungeon BIDK.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterBurner Climax.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Air Conflicts vietnam.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alan Wake American Nightmare.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien Breed assault.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien Breed Descent.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien Breed Evo.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien Rage.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="All Zombies Must Die.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Arkadian.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Assault Heroes.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Assault Heroes 2.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="DmCHD.h">
+      <Filter>Header Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleField Hard.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Cod Black OPs2 TU18.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Conflict Denied Ops.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Crysis.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursed crusade.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Dead Island RipTide.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+    <ClInclude Include="Dead Island.h">
+      <Filter>Header Files\Games\Games optimised</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
