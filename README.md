@@ -13,4 +13,4 @@ Don't know this person but this video should help setting up XDK https://www.you
 
 delete the " from the trainers folder name
 
-This was made to eventually replace XPG Chameleon which i never finished
+This was made to eventually replace XPG Chameleon which i never finished and does contain header files that weren't converted for the multi trainer
